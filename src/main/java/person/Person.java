@@ -7,9 +7,9 @@ public class Person {
 
     private String first_name;
     private String last_name;
-    private String age;
+    private int age;
 
-    public Person(String first_name, String last_name, String age) {
+    public Person(String first_name, String last_name, int age) {
         this.first_name = first_name;
         this.last_name = last_name;
         this.age = age;
@@ -31,11 +31,11 @@ public class Person {
         this.last_name = last_name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 }
