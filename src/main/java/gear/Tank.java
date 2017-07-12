@@ -14,6 +14,9 @@ public class Tank {
     }
 
 
+    public void fillTank(){
+        this.capacityCubicLitres = 100;
+    }
 
 //GETTERS AND SETTERS
     public int getCapacityCubicLitres() {

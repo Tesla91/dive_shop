@@ -7,7 +7,7 @@ public class Boat {
     private static int numAvailable;
     private int capacity;
 
-    Boat(int numAvailable, int capacity){
+    public Boat(int numAvailable, int capacity){
         this.numAvailable=numAvailable;
         this.capacity=capacity;
     }

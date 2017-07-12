@@ -6,8 +6,8 @@ package gear;
 public class Fins {
     private static int numAvailable;
     private int size;
-    Fins (int numAvailable, int size){
-        this.numAvailable=numAvailable;
+
+    public Fins (int size){
         this.size=size;
     }
 
