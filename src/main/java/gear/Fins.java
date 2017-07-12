@@ -10,4 +10,20 @@ public class Fins {
         this.numAvailable=numAvailable;
         this.size=size;
     }
+
+    public static int getNumAvailable() {
+        return numAvailable;
+    }
+
+    public static void setNumAvailable(int numAvailable) {
+        Fins.numAvailable = numAvailable;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
 }
