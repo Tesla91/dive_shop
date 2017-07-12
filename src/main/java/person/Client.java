@@ -9,7 +9,7 @@ public class Client extends Person{
     private double amountPaid;
     private String certificationLevel;
 
-    public Client(String first_name, String last_name, String age, int clientID, String lessonType,
+    public Client(String first_name, String last_name, int age, int clientID, String lessonType,
                   double amountPaid, String certificationLevel) {
         super(first_name, last_name, age);
         this.clientID = clientID;
